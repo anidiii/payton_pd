@@ -15,8 +15,6 @@ name = input("Kā tevi sauc?")
 if not name:
     name = ANON_NAME
 
-
-
 print(f"\n{name}, šīs spēles noteikumi ir vienkārši.")
 print("Es izdomāju tev vārdu un uzrakstu cik burtus tas satur")
 print("Tu minēsi pa vienam burtam")
