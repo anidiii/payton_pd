@@ -1,6 +1,6 @@
 from random import shuffle
 from sys import exit
-ANON_NAME = "Nav vārda"
+ANONIMS = "Nav vārda"
 FILENAME = "projekt\\text.txt"
 ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 MIN_LENGHT = 3
@@ -13,7 +13,7 @@ print(f"Sveiks, spēlētājs, laipni lūdzu tevi savā spēlē, uzmini vārdus!"
 
 name = input("Kā tevi sauc?")
 if not name:
-    name = ANON_NAME
+    name = ANONIMS
 
 print(f"\n{name}, šīs spēles noteikumi ir vienkārši.")
 print("Es izdomāju tev vārdu un uzrakstu cik burtus tas satur")
